@@ -184,8 +184,7 @@ figure.floatcenter, .align-center {
 
 #banner .copy {
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
-    display: inline;
-    float: left;
+    display: inline-block;
     max-width: 600px;
     padding: 20px;
     position: relative;
