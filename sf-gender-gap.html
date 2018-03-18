@@ -1,7 +1,8 @@
 <!DOCTYPE html>
+<link rel="canonical" href="/sf-gender-gap.html"/>
 <html lang="en" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
 <head>
-    <title>Portfolio - Seng Kin Chu</title>
+    <title>Investigating the Gender Wage Gap - Seng Kin Chu</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -9,16 +10,19 @@
 
 
 
+<link rel="canonical" href="/sf-gender-gap.html">
 
-    <meta name="author" content="Seng Kin Chu" />
-    <meta name="keywords" content="Portfolio" />
+        <meta name="author" content="Seng Chu" />
+        <meta name="description" content="A detailed analysis on the gender wage gap for public jobs in California using Python." />
 
-    <!-- Open Graph tags -->
         <meta property="og:site_name" content="Seng Kin Chu" />
-        <meta property="og:type" content="website"/>
-        <meta property="og:title" content="Seng Kin Chu"/>
-        <meta property="og:url" content=""/>
-        <meta property="og:description" content="Seng Kin Chu"/>
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" content="Investigating the Gender Wage Gap"/>
+        <meta property="og:url" content="/sf-gender-gap.html"/>
+        <meta property="og:description" content="A detailed analysis on the gender wage gap for public jobs in California using Python."/>
+        <meta property="article:published_time" content="2018-03-18" />
+            <meta property="article:section" content="Portfolio" />
+            <meta property="article:author" content="Seng Chu" />
 
 
 
@@ -112,43 +116,78 @@
 <div class="container">
     <div class="row">
         <div class="col-lg-12">
-		<center><h1> Portfolio </h1></center>
-		<hr> 
-			<p></p>		
-            <article>
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="/sf-gender-gap.html"
+                       rel="bookmark"
+                       title="Permalink to Investigating the Gender Wage Gap">
+                        <center>Investigating the Gender Wage Gap</center>
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+
+                    <div class="panel-body">
+<footer class="post-info">
+    </span>
+
+
+
+
+
+    
+</footer>                    </div>
 	
-                <center><h2><a href="/sf-gender-gap.html"><center>Investigating the Gender Wage Gap</center></a></h2></center>
-				<p><center>A detailed analysis on the gender wage gap for public jobs in California using Python.</center></p>
-	
-				<div style="text-align:left">
-
-				<center><a href="/sf-gender-gap.html">
-				<img src="/images/sf-gender-gap/cover.png" class = 'img-responsive' alt="<center>Investigating the Gender Wage Gap</center> Cover Image" style="display: inline-block !important;"/>
-				</a></center>
-
-				</div>
-            </article>
-            <hr/>
-            <article>
-                <center><h2><a href="https://codingdisciple.com">codingdisciple.com</a></h2></center>
-				<p><center>An educational website designed to provide resources on data science.</center></p>
-<p>Content includes but not limited to:
-<ul>
-<li>    A 6-part series on the basics of statistics and hypothesis testing in Python.</li>
-<li>    Business oriented data analysis/visualization with SQL and Python.</li>
-<li>    Predicting Titanic Survivors using machine learning with emphasis on data exploration.</li>
-<li>    Working with Spark SQL and Spark Dataframes in Python.</li>
-</ul></p>
-				<div style="text-align:left">
-
-				<center><a href="https://codingdisciple.com">
-				<img src="/images/portfolio/codingdisciple.png" class = 'img-responsive' alt="codingdisciple.com Cover Image" style="display: inline-block !important;"/>
-				</a></center>
-
-				</div>
-				
-            </article>
-            <hr/>
+                <p><center>
+For the full writeup of this project click <a href="https://codingdisciple.com/sf-gender-gap.html">here</a>.</p>
+<p>If you prefer the full notebook instead click <a href="https://github.com/sengkchu/Projects/blob/master/Investigating%20the%20Gender%20Wage%20Gap/Investigating%20the%20Gender%20Wage%20Gap.ipynb">here</a>
+</center></p>
+<hr>
+<p><center><h3>Introduction</h3></center></p>
+<p>In this project, I focused on data analysis and visualization of the gender wage gap. 
+Specifically, the public jobs in the city of San Francisco and Newport Beach were analyzed. 
+This data set is publicly available on <a href="https://www.kaggle.com/kaggle/sf-salaries">Kaggle</a>. 
+The complete list of requirements and files used can be found my GitHub repository <a href="https://github.com/sengkchu/Projects/tree/master/Investigating%20the%20Gender%20Wage%20Gap">here</a>.</p>
+<p>Note: I am not affiliated with any political group, everything I write in this project is based on my perspective of the data alone.</p>
+<p><center><h3>Key Findings</h3></center></p>
+<p>1) There is no gender wage gap for part time employees for both San Francisco and Newport Beach. 
+The curves were nearly identical for both males and females for the The kernal density estimation plots.</p>
+<p><center>
+<img src="/images/sf-gender-gap/part-timers.png" alt="part-timers"/>
+</center></p>
+<hr>
+<p>2) There is an overall gender wage gap for full time employees for both San Francisco and Newport Beach.</p>
+<p><center>
+<img src="/images/sf-gender-gap/full-timers.png" alt="full-timers"/>
+</center></p>
+<hr>
+<p>3) When broken down by job categories, the gender wage gap is no more than 10% in San Francisco, and not all of these percentage values showed favoritism towards males. 
+<center>
+<img src="/images/sf-gender-gap/cover.png" alt="cover"/>
+</center></p>
+<hr>
+<p>4) There is a higher representation of males in Newport Beach compared to San Francisco for public jobs.
+<center><br>
+<img src="/images/sf-gender-gap/total-percentage.png" alt="total-percentage"/>
+</center></p>
+<hr>
+<p>5) Gender representation by job category. </p>
+<p><center><br>
+<img src="/images/sf-gender-gap/representation.png" alt="representation"/>
+</center></p>
+<hr>
+<p>6) 25 jobs in San Francisco with a sample size greater than 100 were tested using the Welch's t-test, 5 jobs resulted in a p-value of less than 0.05. 
+However, not all jobs showed favoritism towards males. 'Registered Nurse' and 'Senior Clerk' both showed an average pay in favor of females. </p>
+<p><center><br>
+<img src="/images/sf-gender-gap/ttest.png" alt="ttest"/>
+</center></p>
+<hr>
+            </div>
+            <!-- /.entry-content -->
+        </article>
+    </section>
 
         </div>
     </div>
