@@ -12,7 +12,7 @@ The complete list of requirements and files used can be found my GitHub reposito
 &lt;p&gt;Note: I am not affiliated with any political group, everything I write in this project is based on my perspective of the data alone.&lt;/p&gt;
 &lt;p&gt;&lt;center&gt;&lt;h3&gt;Key Findings&lt;/h3&gt;&lt;/center&gt;&lt;/p&gt;
 &lt;p&gt;1) There is no gender wage gap for part time employees for both San Francisco and Newport Beach. 
-The curves were nearly identical for both males and females for the The kernal density estimation plots.&lt;/p&gt;
+The curves were nearly identical for both males and females for both KDE plots.&lt;/p&gt;
 &lt;p&gt;&lt;center&gt;
 &lt;img src="/images/sf-gender-gap/part-timers.png" alt="part-timers"/&gt;
 &lt;/center&gt;&lt;/p&gt;
