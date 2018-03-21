@@ -12,7 +12,7 @@ The complete list of requirements and files used can be found my GitHub reposito
 &lt;p&gt;Note: I am not affiliated with any political group, everything I write in this project is based on my perspective of the data alone.&lt;/p&gt;
 &lt;p&gt;&lt;center&gt;&lt;h3&gt;Key Findings&lt;/h3&gt;&lt;/center&gt;&lt;/p&gt;
 &lt;p&gt;1) There is no gender wage gap for part time employees for both San Francisco and Newport Beach. 
-The curves were nearly identical for both males and females for both KDE plots.&lt;/p&gt;
+The curves were nearly identical for both males and females for both kernel density plots.&lt;/p&gt;
 &lt;p&gt;&lt;center&gt;
 &lt;img src="/images/sf-gender-gap/part-timers.png" alt="part-timers"/&gt;
 &lt;/center&gt;&lt;/p&gt;
@@ -45,14 +45,14 @@ However, not all jobs showed favoritism towards males. 'Registered Nurse' and 'S
 &lt;hr&gt;</content></entry><entry><title>codingdisciple.com</title><link href="/https://codingdisciple.com" rel="alternate"></link><published>2018-02-16T23:00:00-08:00</published><updated>2018-02-16T23:00:00-08:00</updated><author><name>Seng Chu</name></author><id>tag:None,2018-02-16:/https://codingdisciple.com</id><summary type="html">&lt;p&gt;&lt;center&gt;An educational website designed to provide resources on data science.&lt;/center&gt;&lt;/p&gt;
 &lt;p&gt;Content includes but not limited to:
 &lt;ul&gt;
-&lt;li&gt;    A 6-part series on the basics of statistics and hypothesis testing in Python.&lt;/li&gt;
-&lt;li&gt;    Business oriented data analysis/visualization with SQL and Python.&lt;/li&gt;
-&lt;li&gt;    Predicting Titanic Survivors using machine learning with emphasis on data exploration.&lt;/li&gt;
-&lt;li&gt;    Working …&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;center&gt;An educational website designed to provide resources on data science.&lt;/center&gt;&lt;/p&gt;
+&lt;li&gt;    6-part series on statistics and hypothesis testing in Python.&lt;/li&gt;
+&lt;li&gt;    Demonstrations on the data analysis process, from extracting data using SQL to answering business questions.&lt;/li&gt;
+&lt;li&gt;    Guides on the machine learning process.&lt;/li&gt;
+&lt;li&gt;    Solutions to 17 guided …&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;center&gt;An educational website designed to provide resources on data science.&lt;/center&gt;&lt;/p&gt;
 &lt;p&gt;Content includes but not limited to:
 &lt;ul&gt;
-&lt;li&gt;    A 6-part series on the basics of statistics and hypothesis testing in Python.&lt;/li&gt;
-&lt;li&gt;    Business oriented data analysis/visualization with SQL and Python.&lt;/li&gt;
-&lt;li&gt;    Predicting Titanic Survivors using machine learning with emphasis on data exploration.&lt;/li&gt;
-&lt;li&gt;    Working with Spark SQL and Spark Dataframes in Python.&lt;/li&gt;
+&lt;li&gt;    6-part series on statistics and hypothesis testing in Python.&lt;/li&gt;
+&lt;li&gt;    Demonstrations on the data analysis process, from extracting data using SQL to answering business questions.&lt;/li&gt;
+&lt;li&gt;    Guides on the machine learning process.&lt;/li&gt;
+&lt;li&gt;    Solutions to 17 guided projects from Dataquest.io demonstrating the usage of tools such as pandas, numpy, matplotlib, scikit-learn, SQL and spark. &lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;</content></entry></feed>
