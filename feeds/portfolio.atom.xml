@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Seng Kin Chu - Portfolio</title><link href="/" rel="alternate"></link><link href="/feeds/portfolio.atom.xml" rel="self"></link><id>/</id><updated>2018-03-18T23:00:00-07:00</updated><entry><title>Investigating the Gender Wage Gap</title><link href="/sf-gender-gap.html" rel="alternate"></link><published>2018-03-18T23:00:00-07:00</published><updated>2018-03-18T23:00:00-07:00</updated><author><name>Seng Chu</name></author><id>tag:None,2018-03-18:/sf-gender-gap.html</id><summary type="html">&lt;p&gt;&lt;center&gt;A detailed analysis on the gender wage gap for public jobs in California using Python.&lt;/center&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;center&gt;
-For the full writeup of this project click &lt;a href="https://codingdisciple.com/sf-gender-gap.html"&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;If you prefer the full notebook instead click &lt;a href="https://github.com/sengkchu/Projects/blob/master/Investigating%20the%20Gender%20Wage%20Gap/Investigating%20the%20Gender%20Wage%20Gap.ipynb"&gt;here&lt;/a&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Seng Kin Chu - Portfolio</title><link href="/" rel="alternate"></link><link href="/feeds/portfolio.atom.xml" rel="self"></link><id>/</id><updated>2018-03-18T23:00:00-07:00</updated><entry><title>Investigating the Gender Wage Gap</title><link href="/sf-gender-gap.html" rel="alternate"></link><published>2018-03-18T23:00:00-07:00</published><updated>2018-03-18T23:00:00-07:00</updated><author><name>Seng Chu</name></author><id>tag:None,2018-03-18:/sf-gender-gap.html</id><summary type="html">&lt;p&gt;&lt;center&gt;A data exploration and analysis web application.&lt;/center&gt;&lt;center&gt; And a detailed analysis on the gender wage gap for public jobs in California using Python.&lt;/center&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;center&gt;
+To use the application hosted on Heroku, click &lt;a href="https://gendergapvisualization.herokuapp.com/"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For the full writeup of this project, click &lt;a href="https://codingdisciple.com/sf-gender-gap.html"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If you prefer the full notebook instead, click &lt;a href="https://github.com/sengkchu/gendergapvisualization/blob/master/data%20processing%20and%20analysis/Investigating%20the%20Gender%20Wage%20Gap.ipynb"&gt;here&lt;/a&gt;
 &lt;/center&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;center&gt;&lt;h3&gt;Introduction&lt;/h3&gt;&lt;/center&gt;&lt;/p&gt;
 &lt;p&gt;In this project, I focused on data analysis and visualization of the gender wage gap. 
 Specifically, the public jobs in the city of San Francisco and Newport Beach were analyzed. 
-This data set is publicly available on &lt;a href="https://www.kaggle.com/kaggle/sf-salaries"&gt;Kaggle&lt;/a&gt;. 
-The complete list of requirements and files used can be found my GitHub repository &lt;a href="https://github.com/sengkchu/Projects/tree/master/Investigating%20the%20Gender%20Wage%20Gap"&gt;here&lt;/a&gt;.&lt;/p&gt;
+The complete list of requirements and files used can be found my GitHub repository &lt;a href="https://github.com/sengkchu/gendergapvisualization"&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Note: I am not affiliated with any political group, everything I write in this project is based on my perspective of the data alone.&lt;/p&gt;
 &lt;p&gt;&lt;center&gt;&lt;h3&gt;Key Findings&lt;/h3&gt;&lt;/center&gt;&lt;/p&gt;
 &lt;p&gt;1) There is no gender wage gap for part time employees for both San Francisco and Newport Beach. 
@@ -24,7 +24,7 @@ The curves were nearly identical for both males and females for both kernel dens
 &lt;hr&gt;
 &lt;p&gt;3) When broken down by job categories, the gender wage gap is no more than 10% in San Francisco, and not all of these percentage values showed favoritism towards males. 
 &lt;center&gt;
-&lt;img src="/images/sf-gender-gap/cover.png" alt="cover"/&gt;
+&lt;img src="/images/sf-gender-gap/cover2.png" alt="cover"/&gt;
 &lt;/center&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;4) There is a higher representation of males in Newport Beach compared to San Francisco for public jobs.
@@ -36,22 +36,16 @@ The curves were nearly identical for both males and females for both kernel dens
 &lt;p&gt;&lt;center&gt;&lt;br&gt;
 &lt;img src="/images/sf-gender-gap/representation.png" alt="representation"/&gt;
 &lt;/center&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;6) 25 jobs in San Francisco with a sample size greater than 100 were tested using the Welch's t-test, 5 jobs resulted in a p-value of less than 0.05. 
-However, not all jobs showed favoritism towards males. 'Registered Nurse' and 'Senior Clerk' both showed an average pay in favor of females. &lt;/p&gt;
-&lt;p&gt;&lt;center&gt;&lt;br&gt;
-&lt;img src="/images/sf-gender-gap/ttest.png" alt="ttest"/&gt;
-&lt;/center&gt;&lt;/p&gt;
-&lt;hr&gt;</content></entry><entry><title>codingdisciple.com</title><link href="/https://codingdisciple.com" rel="alternate"></link><published>2018-02-16T23:00:00-08:00</published><updated>2018-02-16T23:00:00-08:00</updated><author><name>Seng Chu</name></author><id>tag:None,2018-02-16:/https://codingdisciple.com</id><summary type="html">&lt;p&gt;&lt;center&gt;An educational website designed to provide resources on data science.&lt;/center&gt;&lt;/p&gt;
+&lt;hr&gt;</content></entry><entry><title>codingdisciple.com</title><link href="/https://codingdisciple.com/category/learning-data-science" rel="alternate"></link><published>2018-02-16T23:00:00-08:00</published><updated>2018-02-16T23:00:00-08:00</updated><author><name>Seng Chu</name></author><id>tag:None,2018-02-16:/https://codingdisciple.com/category/learning-data-science</id><summary type="html">&lt;p&gt;&lt;center&gt;An educational website designed to provide resources on data science.&lt;/center&gt;&lt;/p&gt;
 &lt;p&gt;Content includes but not limited to:
 &lt;ul&gt;
-&lt;li&gt;    6-part series on statistics and hypothesis testing in Python.&lt;/li&gt;
+&lt;li&gt;    7-part series on statistics and hypothesis testing in Python.&lt;/li&gt;
 &lt;li&gt;    Demonstrations on the data analysis process, from extracting data using SQL to answering business questions.&lt;/li&gt;
 &lt;li&gt;    Guides on the machine learning process.&lt;/li&gt;
 &lt;li&gt;    Solutions to 17 guided …&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;center&gt;An educational website designed to provide resources on data science.&lt;/center&gt;&lt;/p&gt;
 &lt;p&gt;Content includes but not limited to:
 &lt;ul&gt;
-&lt;li&gt;    6-part series on statistics and hypothesis testing in Python.&lt;/li&gt;
+&lt;li&gt;    7-part series on statistics and hypothesis testing in Python.&lt;/li&gt;
 &lt;li&gt;    Demonstrations on the data analysis process, from extracting data using SQL to answering business questions.&lt;/li&gt;
 &lt;li&gt;    Guides on the machine learning process.&lt;/li&gt;
 &lt;li&gt;    Solutions to 17 guided projects from Dataquest.io demonstrating the usage of tools such as pandas, numpy, matplotlib, scikit-learn, SQL and spark. &lt;/li&gt;
