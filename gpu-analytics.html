@@ -141,7 +141,8 @@
 </footer>                    </div>
 	
                 <p><center>
-To use the application hosted on Heroku, click <a href="http://gpuanalytics.herokuapp.com/">here</a>. (Might take some time to load)</p>
+To use the most updated version of the application: https://gpuanalytics.codingdisciple.com/ </p>
+<p>To use the static version of the application hosted on Heroku, click <a href="http://gpuanalytics.herokuapp.com/">here</a>. (Might take some time to load)</p>
 <p>For the GitHub repository of this project, click <a href="https://github.com/sengkchu/gpu-analytics">here</a>
 </center></p>
 <hr>
@@ -167,10 +168,10 @@ For example, the price of a GTX 1080 TI is actually more expensive today (7/1/20
 <p>Is it reasonable to pay more? That is really up to you to decide.</p>
 <hr>
 <p><center><h3>Web scraping and the Back-End</h3></center></p>
-<p>The back-end for this project is a SQLite database currently stored on GitHub. 
-I wrote a Python script to scrape data from PCPartPicker and PassMark using beautiful soup.
-The database was designed to be as small as possible (~5 MB) so it is lightweight and fits into a GitHub repo.
-I do plan on moving this project to an actual cloud hosting service in August 2018.</p>
+<p>The back-end for this project is a SQLite database currently stored in <a href="https://m.do.co/c/9ef8fb149c50">Digital Ocean</a>, a cloud VPS provider. 
+It is currently being served using Apache and mod_wsgi through Cloudflare.
+I wrote a Python script to scrape data from PCPartPicker and PassMark using BeautifulSoup. This script runs itself daily at 00:10 Pacific time.
+The database was designed to be as small as possible (~5 MB) so it is lightweight and fits even into a GitHub repo.</p>
 <p>The following is the database schema:</p>
 <p><center>
 <img src="/images/gpu-analytics/db_schema.png" alt="schema"/>
